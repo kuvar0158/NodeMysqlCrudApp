@@ -1,0 +1,16 @@
+refrenceLink-: https://medium.com/@rahulguptalive/create-crud-apis-in-nodejs-express-and-mysql-abda4dfc2d6
+
+api end points-:
+http://localhost:5000/api/v1/employees [GET] 
+http://localhost:5000/api/v1/employees [POST] 
+http://localhost:5000/api/v1/employees/1 [PUT] 
+http://localhost:5000/api/v1/employees/1 [DELETE] 
+
+note-: Actually I have uploaded this project on git hub
+
+step for setup from github to local-:
+
+1-: git clone "https://github.com/kuvar0158/NodeMysqlCrudApp.git"
+2-: install npm (go to the root directory and run)
+3-: create db and tables 
+4-: npm start (for run server on port 5000)
