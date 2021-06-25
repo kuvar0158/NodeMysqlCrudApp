@@ -14,3 +14,16 @@ step for setup from github to local-:
 2-: install npm (go to the root directory and run)
 3-: create db and tables 
 4-: npm start (for run server on port 5000)
+
+
+=======================now we have setup jwt token to secure APIs===============================
+refrence link-: https://www.youtube.com/watch?v=7nafaH9SddU
+code refrence link:
+https://github.com/bradtraversy/node_jwt_example/blob/master/app.js
+
+step1-: npm install jsonwebtoken
+
+api end points-: (It will generate token)
+http://localhost:5000/api/login [POST]
+
+http://localhost:5000/api/test [GET] (pass token using bearer)
